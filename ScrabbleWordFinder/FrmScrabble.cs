@@ -19,7 +19,7 @@ namespace ScrabbleWordFinder
             this.WindowState = FormWindowState.Maximized;
             InitializeComponent();
             InitializeMatchByPosition();
-            wordTree.Read(@"E:\Scrabble\TreeFile.txt");
+            wordTree.Read(@"C:\git\ScrabbleGenerator\TreeFile.txt");
         }
 
         private ScrabbleTree wordTree = new ScrabbleTree();

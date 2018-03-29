@@ -32,7 +32,7 @@ namespace Scrabble
 
             var tree = new ScrabbleTree();
             //tree.Read(@"E:\Scrabble\TreeFileTest.txt");
-            tree.Read(@"E:\Scrabble\TreeFile.txt");
+            tree.Read(@"C:\git\ScrabbleGenerator\TreeFile.txt");
 
             var wordTree = tree.FindWordTree(new char[] { 'P', 'E', 'E', 'K' });
             var wordList = wordTree.ToWordList();
